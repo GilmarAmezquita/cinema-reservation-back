@@ -104,3 +104,34 @@ CREATE TABLE seat_reserved (
     FOREIGN KEY ( reservation_id ) REFERENCES reservation ( id ) ON DELETE CASCADE,
     FOREIGN KEY ( projection_id ) REFERENCES projection ( id ) ON DELETE CASCADE
 );
+
+CREATE OR REPLACE FUNCTION check_seat_capacity()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF (SELECT COUNT(*) FROM seat WHERE room_id = NEW.room_id) >=
+       (SELECT capacity FROM room WHERE id = NEW.room_id) THEN
+        RAISE EXCEPTION 'El número de asientos excede la capacidad de la sala';
+    END IF;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER check_seat_capacity_trigger
+BEFORE INSERT ON seat
+FOR EACH ROW
+EXECUTE FUNCTION check_seat_capacity();
+
+CREATE OR REPLACE FUNCTION check_projection_date()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF NEW.start_date < NOW() THEN
+        NEW.active = false;
+    END IF;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER check_projection_date_trigger
+BEFORE INSERT ON projection
+FOR EACH ROW
+EXECUTE FUNCTION check_projection_date();

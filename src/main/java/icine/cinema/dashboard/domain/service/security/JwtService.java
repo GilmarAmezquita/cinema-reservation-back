@@ -1,4 +1,4 @@
-package icine.cinema.dashboard.domain.service;
+package icine.cinema.dashboard.domain.service.security;
 
 import icine.cinema.dashboard.infrastructure.model.User;
 import io.jsonwebtoken.Jwts;

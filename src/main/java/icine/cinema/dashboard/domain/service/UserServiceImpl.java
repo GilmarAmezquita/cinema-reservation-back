@@ -7,6 +7,7 @@ import icine.cinema.dashboard.domain.dto.response.UserResponseDTO;
 import icine.cinema.dashboard.domain.mapper.UserMapper;
 import icine.cinema.dashboard.domain.service.provider.AuthorityProvider;
 import icine.cinema.dashboard.domain.service.provider.UserProvider;
+import icine.cinema.dashboard.domain.service.security.JwtService;
 import icine.cinema.dashboard.infrastructure.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -14,11 +14,6 @@ import java.util.List;
 public interface ProjectionController {
     @GetMapping("/{movieId}")
     List<ProjectionResponseDTO> getProjectionsByMovie(
-            @PathVariable String movieId
-    );
-
-    @GetMapping
-    Page<ProjectionResponseDTO> getProjections(
-            @PageableDefault Pageable pageable
+            @PathVariable long movieId
     );
 }

@@ -1,6 +1,6 @@
 package icine.cinema.dashboard.application.security;
 
-import icine.cinema.dashboard.domain.service.JwtService;
+import icine.cinema.dashboard.domain.service.security.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
