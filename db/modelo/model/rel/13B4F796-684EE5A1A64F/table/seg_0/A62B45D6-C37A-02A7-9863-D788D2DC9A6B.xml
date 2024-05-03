@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A62B45D6-C37A-02A7-9863-D788D2DC9A6B" name="user">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>60B49D4E-F8F7-2119-D35E-C3A072EF92B4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="297FF14C-6FE8-B46B-961B-D93AC34D15DA">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>321047B9-9A5D-F4DD-73E8-46124C38F934</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="2ACDC2E3-0016-7EB6-92D9-1517E6792A71">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>899CF2A9-B700-50E8-3130-E6062481034A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="42F48EAB-FFF4-3679-AC2D-BD2CA75768BF">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>BB785BB2-9305-0C48-EE23-C2C87877C1CC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="F4124DA4-101C-657A-E364-7CAD17064796">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>BAA682DB-9F28-9683-C0E4-98DAF25E2A05</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="authority_id" id="9F08B4A0-BF87-4EAD-7904-6C4FA5D657C8">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>8697F650-341F-C1E2-49F7-048DA8A9AA5F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B3F8547-B77D-5421-8612-19D4163B9C0E" referredColumn="16D1A5E8-44CC-F71E-DB19-8585974CF74E"/>
+</associations>
+</Column>
+<Column name="email" id="C805505A-7650-CA87-B887-F0C6FBADF65D">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>9208493E-7377-775B-EFEF-27F23C7CB0B4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="1C8E648E-D812-0CAD-9C9B-6F2B54E382B1">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>FE5A136B-C4FA-CF8D-2F47-88E8E9183852</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="active" id="5E07D3CD-3441-1AF1-88C5-66E61FFE6AEB">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>592AB637-7C94-4E08-6B46-53FBE45920F1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55A30828-68F5-8B37-6025-058EABA481EF" name="user_PK">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>F10AFE57-2931-E571-F493-75FDA81A6473</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="297FF14C-6FE8-B46B-961B-D93AC34D15DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7074934-A4D6-4F8A-9AF8-055713B84321" name="user_authority_FK">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>D01664C7-2A05-197F-2BC7-638584C1F622</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F08B4A0-BF87-4EAD-7904-6C4FA5D657C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

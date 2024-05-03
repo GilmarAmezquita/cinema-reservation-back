@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="projection_room" directorySegmentName="seg_0" id="FC0967EA-E6E0-D2CA-DFC7-644430FB1602">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:10:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+</engineerTo>
+<sourcePk>EF456B4C-4002-884A-8341-B4FDCCF577B6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2361A614-5636-D453-1AF3-DD7E1FB684E1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5BF30838-22BE-7BDF-9BDA-D2FBB9BAC7EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

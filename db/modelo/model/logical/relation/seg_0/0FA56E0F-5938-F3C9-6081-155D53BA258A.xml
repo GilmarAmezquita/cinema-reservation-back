@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reservation_user" directorySegmentName="seg_0" id="0FA56E0F-5938-F3C9-6081-155D53BA258A">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:31:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="67441D12-78E1-E6A6-A137-FDC240B67151" value="true"/>
+</engineerTo>
+<sourcePk>F10AFE57-2931-E571-F493-75FDA81A6473</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>60B49D4E-F8F7-2119-D35E-C3A072EF92B4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4505316-A982-0C09-2BAA-CC83D7D6BA78</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

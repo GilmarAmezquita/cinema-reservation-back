@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="seat_reserved_projection" directorySegmentName="seg_0" id="EB2E59ED-9563-F08A-54AC-355FBF35E171">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:29:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<sourcePk>205C23E9-DD3B-A66F-87E9-B6460FE89DED</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5BF30838-22BE-7BDF-9BDA-D2FBB9BAC7EF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D307362B-62C5-147E-E498-679DB5EB5A2C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

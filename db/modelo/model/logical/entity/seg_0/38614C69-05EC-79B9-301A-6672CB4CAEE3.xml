@@ -4,7 +4,7 @@
 <createdTime>2024-05-02 16:03:28 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="movie_id" id="94187ECC-3682-ABF4-C032-FFE16983716E">
+<Attribute name="id" id="94187ECC-3682-ABF4-C032-FFE16983716E">
 <createdBy>semillero</createdBy>
 <createdTime>2024-05-02 16:03:42 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2024-05-02 16:04:15 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +46,7 @@
 <createdTime>2024-05-02 16:04:46 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +60,7 @@
 <createdTime>2024-05-02 16:05:28 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,13 +73,27 @@
 <createdTime>2024-05-02 16:12:10 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="active" id="D23EE085-558E-86C9-DBB7-06A8F4F411BC">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:09:42 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -88,7 +102,7 @@
 <createdTime>2024-05-02 16:04:10 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="projection_movie" directorySegmentName="seg_0" id="47D67676-AAC5-05F1-C841-51867D38A438">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:07:24 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+</engineerTo>
+<sourcePk>DF0832B6-CD30-9F8F-4DB2-883925129B0D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>38614C69-05EC-79B9-301A-6672CB4CAEE3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5BF30838-22BE-7BDF-9BDA-D2FBB9BAC7EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

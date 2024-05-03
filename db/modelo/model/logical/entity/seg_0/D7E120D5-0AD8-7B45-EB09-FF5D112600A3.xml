@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7E120D5-0AD8-7B45-EB09-FF5D112600A3" name="seat">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:01:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="110A7906-B10B-FA43-C34A-9A35ED590E9F">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:01:43 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="row" id="C3D386CD-F8B0-9A9F-E754-3C4269B0F0CF">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:03:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number" id="29360DBB-DF7D-3437-B68E-2B1889BD59EA">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:03:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="2A94E258-390B-799C-57D3-D439EC279C0A">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:25:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="23BE9764-E3AC-8FA8-32ED-085E4322FEE4">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:03:39 UTC</createdTime>
+<generatorID>580BEA28-3F62-2FBB-B82B-05E9906B53AB</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<referedAttribute>61F480DF-2A80-20A2-03A5-7B62C23DECD0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="active" id="FD0BFCBE-C8A9-EB2F-D224-FF7E8CDD5090">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:10:23 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E9ACCE6-06F5-7AF6-D4D4-30B45165000F" name="seat PK">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:01:57 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>110A7906-B10B-FA43-C34A-9A35ED590E9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

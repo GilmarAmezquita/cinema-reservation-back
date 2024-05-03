@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="room_seats" directorySegmentName="seg_0" id="580BEA28-3F62-2FBB-B82B-05E9906B53AB">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:03:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<sourcePk>EF456B4C-4002-884A-8341-B4FDCCF577B6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2361A614-5636-D453-1AF3-DD7E1FB684E1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D7E120D5-0AD8-7B45-EB09-FF5D112600A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

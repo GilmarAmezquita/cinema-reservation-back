@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D307362B-62C5-147E-E498-679DB5EB5A2C" name="seat_reserved">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:26:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="FB304272-D4FC-DE51-F86D-0787DA2C32ED">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:26:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="360C8E48-FA4B-3F2E-468B-CE0A9B610248">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:27:33 UTC</createdTime>
+<generatorID>1338D874-DD57-99CE-69C3-F3EC32C197C6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<referedAttribute>110A7906-B10B-FA43-C34A-9A35ED590E9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="1E568657-9B51-45FA-4329-1C9A2B30AAD8">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:28:03 UTC</createdTime>
+<generatorID>8D9D9542-2B1E-8402-6A19-F680EDE065BC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<referedAttribute>E68B0890-4274-07A6-EEFB-2B2E5B1EDEBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="8C35147C-C878-6AD0-1F55-5E3E0FB89917">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:29:17 UTC</createdTime>
+<generatorID>EB2E59ED-9563-F08A-54AC-355FBF35E171</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<referedAttribute>2C9DC79C-1E92-DE87-A656-ACBAFF0ECAA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="active" id="FF42BF8D-1087-F166-BA3F-5546867904C4">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 23:30:29 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="878B88A4-FAD2-F504-CCA5-BA4341202B62" name="seats_reserved PK">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:26:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB304272-D4FC-DE51-F86D-0787DA2C32ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

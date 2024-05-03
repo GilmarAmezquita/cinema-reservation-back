@@ -4,7 +4,7 @@
 <createdTime>2024-05-02 16:51:30 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="room_id" id="61F480DF-2A80-20A2-03A5-7B62C23DECD0">
+<Attribute name="id" id="61F480DF-2A80-20A2-03A5-7B62C23DECD0">
 <createdBy>semillero</createdBy>
 <createdTime>2024-05-02 16:52:14 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,13 +32,27 @@
 <createdTime>2024-05-02 16:52:24 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="active" id="05AB258A-EC0B-45D6-CEBC-539B3B26CA68">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:10:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -47,7 +61,7 @@
 <createdTime>2024-05-02 16:52:23 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="A9FE87CC-7837-1B34-54D4-8BD93BF05246" value="true"/>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

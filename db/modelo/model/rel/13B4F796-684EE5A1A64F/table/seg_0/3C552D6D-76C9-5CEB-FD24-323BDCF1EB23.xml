@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C552D6D-76C9-5CEB-FD24-323BDCF1EB23" name="room">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>2361A614-5636-D453-1AF3-DD7E1FB684E1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="82F8478F-E554-F6E7-5A02-3B719064FE38">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>61F480DF-2A80-20A2-03A5-7B62C23DECD0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacity" id="AB44D41B-CFE2-C11F-D8A8-36340F8D37A7">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>9C50AFC6-02A7-DD2D-A30E-DB9A7744FD02</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="active" id="8C0805FE-455C-C997-A309-3F8291984A1F">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>05AB258A-EC0B-45D6-CEBC-539B3B26CA68</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EFAA341-F9AA-B0FC-8BC4-614C3E9BCAAF" name="room_PK">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>EF456B4C-4002-884A-8341-B4FDCCF577B6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82F8478F-E554-F6E7-5A02-3B719064FE38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

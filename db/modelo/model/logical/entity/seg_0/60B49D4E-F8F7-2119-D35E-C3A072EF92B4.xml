@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60B49D4E-F8F7-2119-D35E-C3A072EF92B4" name="user">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:16:28 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="321047B9-9A5D-F4DD-73E8-46124C38F934">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:16:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="899CF2A9-B700-50E8-3130-E6062481034A">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:16:37 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="BB785BB2-9305-0C48-EE23-C2C87877C1CC">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:16:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="BAA682DB-9F28-9683-C0E4-98DAF25E2A05">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:17:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="8697F650-341F-C1E2-49F7-048DA8A9AA5F">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:19:19 UTC</createdTime>
+<generatorID>D01664C7-2A05-197F-2BC7-638584C1F622</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<referedAttribute>70D35AF9-3349-5DCC-16E3-B9D5568DAA8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="9208493E-7377-775B-EFEF-27F23C7CB0B4">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:24:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="FE5A136B-C4FA-CF8D-2F47-88E8E9183852">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:24:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="active" id="592AB637-7C94-4E08-6B46-53FBE45920F1">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:11:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F10AFE57-2931-E571-F493-75FDA81A6473" name="user PK">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:16:37 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>321047B9-9A5D-F4DD-73E8-46124C38F934</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

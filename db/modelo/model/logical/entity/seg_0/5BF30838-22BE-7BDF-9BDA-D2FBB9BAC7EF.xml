@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BF30838-22BE-7BDF-9BDA-D2FBB9BAC7EF" name="projection">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:05:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2C9DC79C-1E92-DE87-A656-ACBAFF0ECAA6">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:05:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_date" id="730C49FA-2077-E666-D9D3-7A40FE3607A4">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:05:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="6C307FB2-21EF-2558-E7FC-E1E9C49DBFE3">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:07:24 UTC</createdTime>
+<generatorID>47D67676-AAC5-05F1-C841-51867D38A438</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<referedAttribute>94187ECC-3682-ABF4-C032-FFE16983716E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="3D5EF386-DE29-0240-4AA1-F65C01BD1FE6">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:10:32 UTC</createdTime>
+<generatorID>FC0967EA-E6E0-D2CA-DFC7-644430FB1602</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<referedAttribute>61F480DF-2A80-20A2-03A5-7B62C23DECD0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="active" id="D3DE19A5-9C51-F402-1B39-052A0E82775B">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 20:11:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="205C23E9-DD3B-A66F-87E9-B6460FE89DED" name="projection PK">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 17:14:25 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C9DC79C-1E92-DE87-A656-ACBAFF0ECAA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

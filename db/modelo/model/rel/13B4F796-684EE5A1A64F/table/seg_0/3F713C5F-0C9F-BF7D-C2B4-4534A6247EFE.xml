@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F713C5F-0C9F-BF7D-C2B4-4534A6247EFE" name="projection">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>5BF30838-22BE-7BDF-9BDA-D2FBB9BAC7EF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2D92B49F-4ED2-454F-060E-F41D5BC15F9F">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>2C9DC79C-1E92-DE87-A656-ACBAFF0ECAA6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="121D43F4-D999-7B05-8ABD-222E59A5C8F5">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>730C49FA-2077-E666-D9D3-7A40FE3607A4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Movie_id" id="CD413E69-D759-C8F9-9F21-3A6A7A53D722">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>6C307FB2-21EF-2558-E7FC-E1E9C49DBFE3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2597E251-BFC1-E440-31A8-19F26BC4D8CA" referredColumn="F82E174A-D8A2-421F-79D5-49E9569C23EF"/>
+</associations>
+</Column>
+<Column name="room_id" id="3173F155-971B-E726-4E55-8C446713478E">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>3D5EF386-DE29-0240-4AA1-F65C01BD1FE6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A7FAF2F-C543-69D4-E789-FDFA31997E56" referredColumn="82F8478F-E554-F6E7-5A02-3B719064FE38"/>
+</associations>
+</Column>
+<Column name="active" id="87646F77-1A24-0667-17BA-A9A5396750F6">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>D3DE19A5-9C51-F402-1B39-052A0E82775B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="391E8D7E-F0E0-46DA-16E7-213354B58F6E" name="projection_PK">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>205C23E9-DD3B-A66F-87E9-B6460FE89DED</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D92B49F-4ED2-454F-060E-F41D5BC15F9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8775CFE-FD7D-E89D-11CF-C71B978F52D9" name="projection_Movie_FK">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>47D67676-AAC5-05F1-C841-51867D38A438</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD413E69-D759-C8F9-9F21-3A6A7A53D722"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F6CC422-92FA-B222-5F75-824D6C1B498B" name="projection_room_FK">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<generatorID>FC0967EA-E6E0-D2CA-DFC7-644430FB1602</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3173F155-971B-E726-4E55-8C446713478E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
