@@ -13,7 +13,6 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
@@ -38,12 +37,13 @@ public class SecurityConfig {
                 .authenticationProvider(authenticationProvider())
                 .userDetailsService(userService)
                 .authorizeHttpRequests(
-                        auth -> auth.requestMatchers("/auth/**").permitAll()
-                                .anyRequest().authenticated()
+                        auth -> auth.anyRequest().permitAll()
                 ).sessionManagement(session -> session
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
                 .httpBasic(
+                        Customizer.withDefaults()
+                ).cors(
                         Customizer.withDefaults()
                 );
 

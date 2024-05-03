@@ -20,9 +20,6 @@ public class Seat implements Serializable {
     @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seat_id_seq")
     private long id;
 
-    @Column(name="SEAT_NUMBER")
-    private String seatNumber;
-
     //bi-directional many-to-one association to Room
     @ManyToOne
     private Room room;
@@ -38,6 +35,17 @@ public class Seat implements Serializable {
 
     @OneToMany(mappedBy = "seat")
     private Set<SeatReserved> seatReserveds = new LinkedHashSet<>();
+
+    @Column(name = "active")
+    private Boolean active;
+
+    public Boolean getActive() {
+        return active;
+    }
+
+    public void setActive(Boolean active) {
+        this.active = active;
+    }
 
     public Set<SeatReserved> getSeatReserveds() {
         return seatReserveds;
@@ -80,14 +88,6 @@ public class Seat implements Serializable {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public String getSeatNumber() {
-        return this.seatNumber;
-    }
-
-    public void setSeatNumber(String seatNumber) {
-        this.seatNumber = seatNumber;
     }
 
     public Room getRoom() {

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2C88D3E-617C-A1F6-BD35-EF9FC91AD93D" name="reservation">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D98CE10-8A62-53DF-3179-E008E4C80FF0" name="reservation">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>B4505316-A982-0C09-2BAA-CC83D7D6BA78</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="50049EE4-50F9-6A5A-7EA9-A15BE8F5477F">
+<Column name="id" id="C88D8C4A-D2B7-30CC-BC58-A8A758716CDF">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>E68B0890-4274-07A6-EEFB-2B2E5B1EDEBF</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="seats" id="852F725E-36E8-40D7-017D-53A8CF40A407">
+<Column name="seats" id="C2A60706-526C-7023-F32C-E59BDBDE4960">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>B97842CD-6294-8691-8683-8ABEA0DEACC1</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="price" id="62F2BC8E-E267-C335-C754-7BFDD7FDF5F0">
+<Column name="price" id="36042489-4E91-A355-CDF1-1700A7D1EE6A">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>CCBCC987-49A0-17A3-6D3F-0A226021BBAA</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -43,9 +43,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="projection_id" id="BF549EC2-2E6C-3D54-259F-C762C504AA29">
+<Column name="projection_id" id="68FEFED8-E8EB-1315-6F5C-05974357758F">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>D2E78C8B-307B-B467-A773-9D955FB84928</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -55,12 +55,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6804E32D-2644-60AA-7FF6-A01EECDD62FE" referredColumn="2D92B49F-4ED2-454F-060E-F41D5BC15F9F"/>
+<colAssociation fkAssociation="2C4E4AE2-576C-4453-A301-2D4E54B533D8" referredColumn="5B54FC28-5992-A7F7-FCF2-FB671178C681"/>
 </associations>
 </Column>
-<Column name="user_id" id="98AEEBEC-142F-2F37-F98C-24232FFFE526">
+<Column name="user_id" id="FEDFC1E2-0C7D-DEB2-D0BE-6F87819EBAD4">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>3427E587-B408-C2D0-8F52-D261E4B517B0</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,12 +70,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="DBF2FD82-64EE-6848-45DD-54F935D4B544" referredColumn="297FF14C-6FE8-B46B-961B-D93AC34D15DA"/>
+<colAssociation fkAssociation="359318BF-A5BD-DB7C-BF3F-439ABD5323BC" referredColumn="BB8A9DE0-186D-A624-682F-E5990058D2B0"/>
 </associations>
 </Column>
-<Column name="active" id="02318359-8FF3-5269-500D-D4F0E5EFD578">
+<Column name="active" id="5B05F691-B165-AB4D-539B-07AB9C22F8E2">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>254E8063-AA08-9208-DEDA-FAC7145BB7FD</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -88,38 +88,38 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="614E40D2-46F7-4B0A-3BA8-2303CDDA757B" name="reservation_PK">
+<ind_PK_UK id="D13C5C47-4135-F4D2-5A62-578863EA67AA" name="reservation_PK">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>48A6F1DD-4265-83D4-6A50-4FB5FDD6B13E</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="50049EE4-50F9-6A5A-7EA9-A15BE8F5477F"/>
+<colUsage columnID="C88D8C4A-D2B7-30CC-BC58-A8A758716CDF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B25798D8-F5B8-3228-9153-71E6E03D168A" name="reservation_projection_FK">
+<ind_PK_UK id="548FA4BB-A1C1-A5F1-5671-D19F4D5392F3" name="reservation_projection_FK">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>D3890D7C-2547-FF92-CC31-28E906F13115</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BF549EC2-2E6C-3D54-259F-C762C504AA29"/>
+<colUsage columnID="68FEFED8-E8EB-1315-6F5C-05974357758F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0FFA4432-D14C-72E6-3F6A-13C6D9C7DB04" name="reservation_user_FK">
+<ind_PK_UK id="51A07BBC-4B6D-CF23-1DFF-3C09CF6EFAED" name="reservation_user_FK">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>0FA56E0F-5938-F3C9-6081-155D53BA258A</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="98AEEBEC-142F-2F37-F98C-24232FFFE526"/>
+<colUsage columnID="FEDFC1E2-0C7D-DEB2-D0BE-6F87819EBAD4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C552D6D-76C9-5CEB-FD24-323BDCF1EB23" name="room">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="272AF389-A16B-3669-984E-6B16CBEB37C2" name="authority">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
-<generatorID>2361A614-5636-D453-1AF3-DD7E1FB684E1</generatorID>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
+<generatorID>79926BBE-C1E7-30CD-7B3E-46E4FB6CFFBB</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="82F8478F-E554-F6E7-5A02-3B719064FE38">
+<Column name="id" id="F9E20F98-48AB-652C-46A2-761E97639F7E">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
-<generatorID>61F480DF-2A80-20A2-03A5-7B62C23DECD0</generatorID>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
+<generatorID>70D35AF9-3349-5DCC-16E3-B9D5568DAA8F</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,43 +19,44 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="capacity" id="AB44D41B-CFE2-C11F-D8A8-36340F8D37A7">
+<Column name="name" id="AEBF2E46-44EC-CDD4-034E-AE2DF42DE71A">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
-<generatorID>9C50AFC6-02A7-DD2D-A30E-DB9A7744FD02</generatorID>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
+<generatorID>9AD00548-BCCE-E5E3-9F40-C591DC8E4F94</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="active" id="8C0805FE-455C-C997-A309-3F8291984A1F">
+<Column name="description" id="48DAB4A3-8B8D-FBDC-185A-51A4DA34E3EC">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
-<generatorID>05AB258A-EC0B-45D6-CEBC-539B3B26CA68</generatorID>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
+<generatorID>0DF930D6-9B50-47D0-4003-33E828FDCB1F</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155 CHAR</dataTypeSize>
+<ownDataTypeParameters>155 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9EFAA341-F9AA-B0FC-8BC4-614C3E9BCAAF" name="room_PK">
+<ind_PK_UK id="65FB7321-B8BD-A608-BF37-11F911D6AA61" name="authority_PK">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
-<generatorID>EF456B4C-4002-884A-8341-B4FDCCF577B6</generatorID>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
+<generatorID>0C5187E7-F330-7958-2F54-35D75C59F590</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="82F8478F-E554-F6E7-5A02-3B719064FE38"/>
+<colUsage columnID="F9E20F98-48AB-652C-46A2-761E97639F7E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

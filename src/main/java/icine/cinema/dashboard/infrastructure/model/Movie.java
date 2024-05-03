@@ -33,11 +33,25 @@ public class Movie implements Serializable {
 
 	private String name;
 
+	private String url;
+
 	private Date premiere;
 
 	//bi-directional many-to-one association to Projection
 	@OneToMany(mappedBy="movie")
+	@OrderBy("id")
 	private List<Projection> projections;
+
+	@Column(name = "active")
+	private Boolean active;
+
+	public Boolean getActive() {
+		return active;
+	}
+
+	public void setActive(Boolean active) {
+		this.active = active;
+	}
 
 	public Movie() {
 	}
@@ -72,6 +86,14 @@ public class Movie implements Serializable {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getUrl() {
+		return this.url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
 	}
 
 	public Date getPremiere() {

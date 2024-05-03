@@ -25,6 +25,7 @@ public class Projection implements Serializable {
 	@Id
 	@SequenceGenerator(name="projection_id_seq", sequenceName="projection_id_seq", allocationSize=1)
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="projection_id_seq")
+	@OrderBy
 	private long id;
 
 	@Column(name="START_DATE")
@@ -40,10 +41,23 @@ public class Projection implements Serializable {
 
 	//bi-directional many-to-one association to Reservation
 	@OneToMany(mappedBy="projection")
+	@OrderBy("id")
 	private List<Reservation> reservations;
 
 	@OneToMany(mappedBy = "projection")
+	@OrderBy("id")
 	private Set<SeatReserved> seatReserveds = new LinkedHashSet<>();
+
+	@Column(name = "active")
+	private Boolean active;
+
+	public Boolean getActive() {
+		return active;
+	}
+
+	public void setActive(Boolean active) {
+		this.active = active;
+	}
 
 	public Set<SeatReserved> getSeatReserveds() {
 		return seatReserveds;

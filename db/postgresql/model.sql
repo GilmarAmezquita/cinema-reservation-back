@@ -55,6 +55,7 @@ CREATE TABLE movie (
     director     VARCHAR(155),
     duration_min INTEGER,
     premiere     DATE,
+    url          VARCHAR(500),
     active       BOOLEAN
 );
 

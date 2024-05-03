@@ -7,7 +7,6 @@ import icine.cinema.dashboard.domain.service.provider.MovieProvider;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -22,7 +21,7 @@ public class MovieControllerImpl implements MovieController {
     }
 
     @Override
-    public Page<MovieResponseDTO> getMovies(Authentication authentication, Pageable pageable) {
+    public Page<MovieResponseDTO> getMovies(Pageable pageable) {
         return movieProvider.getMovies(pageable).map(movieMapper::toResponseDTO);
     }
 }

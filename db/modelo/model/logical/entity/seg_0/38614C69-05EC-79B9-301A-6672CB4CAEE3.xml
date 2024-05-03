@@ -4,7 +4,7 @@
 <createdTime>2024-05-02 16:03:28 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+<item key="90948ACE-D1DF-043A-8640-D7C891834E25" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2024-05-02 16:03:42 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+<item key="90948ACE-D1DF-043A-8640-D7C891834E25" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2024-05-02 16:04:15 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+<item key="90948ACE-D1DF-043A-8640-D7C891834E25" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +46,7 @@
 <createdTime>2024-05-02 16:04:46 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+<item key="90948ACE-D1DF-043A-8640-D7C891834E25" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +60,7 @@
 <createdTime>2024-05-02 16:05:28 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+<item key="90948ACE-D1DF-043A-8640-D7C891834E25" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,7 +73,7 @@
 <createdTime>2024-05-02 16:12:10 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+<item key="90948ACE-D1DF-043A-8640-D7C891834E25" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,7 +86,7 @@
 <createdTime>2024-05-02 20:09:42 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+<item key="90948ACE-D1DF-043A-8640-D7C891834E25" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -95,6 +95,20 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="url" id="523C6FA5-F52D-66B5-EAD3-6273E5B64BCE">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-03 08:00:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="90948ACE-D1DF-043A-8640-D7C891834E25" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="DF0832B6-CD30-9F8F-4DB2-883925129B0D" name="Movie PK">
@@ -102,7 +116,7 @@
 <createdTime>2024-05-02 16:04:10 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13B4F796-C9EE-AFCA-2A10-684EE5A1A64F" value="true"/>
+<item key="90948ACE-D1DF-043A-8640-D7C891834E25" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,7 +1,7 @@
 package icine.cinema.dashboard.application.controller;
 
 import icine.cinema.dashboard.application.api.AuthController;
-import icine.cinema.dashboard.domain.dto.AuthenticationRequestDTO;
+import icine.cinema.dashboard.domain.dto.request.AuthenticationRequestDTO;
 import icine.cinema.dashboard.domain.dto.request.UserRequestDTO;
 import icine.cinema.dashboard.domain.dto.response.AuthenticationResponseDTO;
 import icine.cinema.dashboard.domain.dto.response.UserResponseDTO;

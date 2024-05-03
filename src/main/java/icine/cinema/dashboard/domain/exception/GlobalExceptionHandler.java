@@ -2,6 +2,7 @@ package icine.cinema.dashboard.domain.exception;
 
 import icine.cinema.dashboard.domain.dto.ErrorDetailDTO;
 import icine.cinema.dashboard.domain.exception.error.IcineException;
+import io.jsonwebtoken.security.SignatureException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

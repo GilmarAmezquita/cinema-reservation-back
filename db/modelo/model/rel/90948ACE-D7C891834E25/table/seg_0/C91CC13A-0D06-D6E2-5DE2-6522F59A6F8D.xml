@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5C14890-D70B-7DBD-53DD-0F12C6F666A6" name="seats_reserved">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C91CC13A-0D06-D6E2-5DE2-6522F59A6F8D" name="seat_reserved">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>D307362B-62C5-147E-E498-679DB5EB5A2C</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="42030B57-B40D-C53F-4B85-476FCA05338D">
+<Column name="id" id="6C5FFF9E-75E3-B8C8-FA67-19E0027562CB">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>FB304272-D4FC-DE51-F86D-0787DA2C32ED</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="seat_id" id="FEC0BDEA-8B5D-AA4E-1AC2-CDB5535B6541">
+<Column name="seat_id" id="7B4CA00C-7255-2EF2-9F4C-EC831F116AE1">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>360C8E48-FA4B-3F2E-468B-CE0A9B610248</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,12 +31,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8344A360-8578-4463-8483-7A7BF8BE197D" referredColumn="9DA055D8-DE29-08B0-0120-A77C206135A3"/>
+<colAssociation fkAssociation="BCA77D9F-AC12-F71D-D660-B7A0018A300B" referredColumn="62588B27-0C01-A64B-5B53-861B0D226AD9"/>
 </associations>
 </Column>
-<Column name="reservation_id" id="AC31A715-2A21-BF98-C74B-0D20E2C719ED">
+<Column name="reservation_id" id="5F0B29F1-D002-9A8A-F037-85DC18F7165B">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>1E568657-9B51-45FA-4329-1C9A2B30AAD8</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,12 +46,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="96D669F1-A23C-5ED3-9815-55CDC0EBF940" referredColumn="50049EE4-50F9-6A5A-7EA9-A15BE8F5477F"/>
+<colAssociation fkAssociation="C4665ABA-3324-C83C-49A9-2291EE83D37A" referredColumn="C88D8C4A-D2B7-30CC-BC58-A8A758716CDF"/>
 </associations>
 </Column>
-<Column name="projection_id" id="D1573B3C-1BEE-5DB3-8F0C-A51D451E5813">
+<Column name="projection_id" id="FC4A8BA2-A534-5BFB-1E64-1183442A4034">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>8C35147C-C878-6AD0-1F55-5E3E0FB89917</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,54 +61,67 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C52CC2B0-9F17-4FDA-9FC7-5CBD25B0CBD7" referredColumn="2D92B49F-4ED2-454F-060E-F41D5BC15F9F"/>
+<colAssociation fkAssociation="84CAF51C-1D8A-68D8-B4AD-319B6144232A" referredColumn="5B54FC28-5992-A7F7-FCF2-FB671178C681"/>
 </associations>
+</Column>
+<Column name="active" id="52DEC58E-AA67-DE80-54E0-CE9E5F828E0D">
+<createdBy>semillero</createdBy>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
+<generatorID>FF42BF8D-1087-F166-BA3F-5546867904C4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D6A86CD1-3490-CC97-1FAD-8B980E7F2A10" name="seats_reserved_PK">
+<ind_PK_UK id="9FC3C89A-C4AD-E1CC-BA59-ECB16012086B" name="seat_reserved_PK">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>878B88A4-FAD2-F504-CCA5-BA4341202B62</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="42030B57-B40D-C53F-4B85-476FCA05338D"/>
+<colUsage columnID="6C5FFF9E-75E3-B8C8-FA67-19E0027562CB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1A77C391-4993-D32A-DE7F-44E08967DAB2" name="seats_reserved_projection_FK">
+<ind_PK_UK id="57497C85-027B-057C-E220-5176EBC0CFC7" name="seat_reserved_projection_FK">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>EB2E59ED-9563-F08A-54AC-355FBF35E171</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D1573B3C-1BEE-5DB3-8F0C-A51D451E5813"/>
+<colUsage columnID="FC4A8BA2-A534-5BFB-1E64-1183442A4034"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4029DED2-15B0-695A-9336-C6AF5923BF27" name="seats_reserved_seat_FK">
+<ind_PK_UK id="5266FFB5-A748-C968-B726-53B5363CB1F8" name="seat_reserved_seat_FK">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>1338D874-DD57-99CE-69C3-F3EC32C197C6</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FEC0BDEA-8B5D-AA4E-1AC2-CDB5535B6541"/>
+<colUsage columnID="7B4CA00C-7255-2EF2-9F4C-EC831F116AE1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="17C6364D-2B56-003D-9F36-4EF8E3D60120" name="seats_reserved_reservation_FK">
+<ind_PK_UK id="F12451AC-C4F1-4013-406A-9897542C3C12" name="seat_reserved_reservation_FK">
 <createdBy>semillero</createdBy>
-<createdTime>2024-05-02 22:31:29 UTC</createdTime>
+<createdTime>2024-05-03 08:01:04 UTC</createdTime>
 <generatorID>8D9D9542-2B1E-8402-6A19-F680EDE065BC</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AC31A715-2A21-BF98-C74B-0D20E2C719ED"/>
+<colUsage columnID="5F0B29F1-D002-9A8A-F037-85DC18F7165B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,6 +1,7 @@
 package icine.cinema.dashboard.infrastructure.model;
 
 import java.io.Serializable;
+
 import jakarta.persistence.*;
 import org.hibernate.annotations.SQLRestriction;
 
@@ -29,10 +30,22 @@ public class Room implements Serializable {
 
 	//bi-directional many-to-one association to Projection
 	@OneToMany(mappedBy="room")
+	@OrderBy("id")
 	private List<Projection> projections;
 
 	@OneToMany(mappedBy = "room")
 	private Set<Seat> seats = new LinkedHashSet<>();
+
+	@Column(name = "active")
+	private Boolean active;
+
+	public Boolean getActive() {
+		return active;
+	}
+
+	public void setActive(Boolean active) {
+		this.active = active;
+	}
 
 	public Set<Seat> getSeats() {
 		return seats;

@@ -7,6 +7,7 @@ public record MovieResponseDTO(
         String name,
         String director,
         long durationMin,
+        String url,
         Date premiere
 ) {
 }

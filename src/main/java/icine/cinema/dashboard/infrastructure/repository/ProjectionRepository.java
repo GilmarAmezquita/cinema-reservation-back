@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
-public interface ProjectionRepository extends JpaRepository<Projection, String> {
+public interface ProjectionRepository extends JpaRepository<Projection, Long> {
     List<Projection> findAllByMovieId(long movie_id);
 }

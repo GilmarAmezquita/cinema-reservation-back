@@ -18,6 +18,7 @@ public class SeatReserved implements Serializable {
     @Id
     @SequenceGenerator(name="seat_reserved_id_seq", sequenceName="seat_reserved_id_seq", allocationSize=1)
     @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seat_reserved_id_seq")
+    @OrderBy
     private long id;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
@@ -34,6 +35,25 @@ public class SeatReserved implements Serializable {
     @OnDelete(action = OnDeleteAction.CASCADE)
     @JoinColumn(name = "projection_id", nullable = false)
     private Projection projection;
+
+    @Column(name = "active")
+    private Boolean active;
+
+    public long getId() {
+        return this.id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public Boolean getActive() {
+        return active;
+    }
+
+    public void setActive(Boolean active) {
+        this.active = active;
+    }
 
     public Projection getProjection() {
         return projection;
